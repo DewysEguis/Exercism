@@ -6,5 +6,6 @@ def distance(strand_a, strand_b):
     for i in range(len(strand_a)):
         if strand_a[i] != strand_b[i]:
             cont += 1
+            
     return cont
 
